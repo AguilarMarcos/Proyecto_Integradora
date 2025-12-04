@@ -1,3 +1,4 @@
+# dashboard_view.py
 import tkinter as tk
 from tkinter import messagebox
 
@@ -15,6 +16,7 @@ class DashboardApp:
         tk.Label(
             self.root, text=f"Hola {self.username}", font=("Arial", 22, "bold")
         ).pack(pady=10)
+
 
         tk.Button(
             self.root, text="Ver usuarios", width=20, command=self.ver_usuarios
